@@ -1,0 +1,75 @@
+[Disposition]
+EmplacementZones=1
+NbColonnes=1
+PartiesDistinctes=1
+MargeGauche=0.5
+MargeHaut=0.5
+MargeDroite=0.5
+MargeBas=0.5
+Séparation=1
+CouleurParties=13209
+Papier=9
+Orientation=1
+
+[EnTête]
+PremièreGauche=
+PremièreCentre=
+PremièreDroite=
+AutresGauche=
+AutresCentre=
+AutresDroite=
+
+[Numérotation]
+NoQuestions=1
+NoModalités=1
+Consignes=1
+NomVariables=0
+ModalitésGroupe=1
+
+[Zones]
+TypeCases=3
+CasesGrandes=0
+CasesOmbrées=0
+AlignementModalités=0
+QuestionsEchelles=0
+QuestionsOrdonnées=1
+GraphismeNombres=2
+GraphismeTextes=2
+AlignementSaisies=2
+
+[Polices]
+NomPoliceEnTête=Times New Roman
+TaillePoliceEnTête=12
+StylePoliceEnTête=1
+CouleurPoliceEnTête=0
+NomPoliceTitre=Times New Roman
+TaillePoliceTitre=16
+StylePoliceTitre=1
+CouleurPoliceTitre=0
+NomPoliceParties=Arial Narrow
+TaillePoliceParties=12
+StylePoliceParties=1
+CouleurPoliceParties=0
+NomPoliceCommentaire=Times New Roman
+TaillePoliceCommentaire=12
+StylePoliceCommentaire=2
+CouleurPoliceCommentaire=0
+NomPoliceLibellés=Arial Narrow
+TaillePoliceLibellés=10
+StylePoliceLibellés=0
+CouleurPoliceLibellés=0
+NomPoliceModalités=Arial Narrow
+TaillePoliceModalités=8
+StylePoliceModalités=0
+CouleurPoliceModalités=0
+NomPoliceConsignes=Times New Roman
+TaillePoliceConsignes=8
+StylePoliceConsignes=2
+CouleurPoliceConsignes=0
+NomPoliceRéponses=Times New Roman
+TaillePoliceRéponses=10
+StylePoliceRéponses=0
+CouleurPoliceRéponses=16711680
+
+[Réponses]
+IndicationModalités=0

@@ -1,0 +1,211 @@
+Version=4503
+EntÍte
+	Historique=;4.5.0.30;nGen 0day TeAM;
+	Langue=FR
+	Titre=ENQUETE SUR L'UTILUISATION DU TELEPJONE MOBILE EN COTE D'IVOIRE
+	Commentaire=M/me Dans le cadre d'une nouvelle strategie nationale de la telephonie mobile,nous mesurons la perception de certaines personnes de l'utilisation du telephone portable en cote d'ivoire.ÄÅMerci de bien vouloir repondre ‡ nos questions
+	PÈriode=MARS-AVRIL 2019
+	Organisme=EPCCI
+	StadePanneau=10
+Fin
+Questions
+	Question
+		LibellÈ=NUMERO DU QUESTIONNAIRE+
+		Variable=NUMERO DU QUESTIONNAIRE
+		Type=4
+		TypeNombre=2
+		MinNombre=1
+		MaxNombre=15
+		Consigne=La rÈponse doit Ítre comprise entre 1 et 15.
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		LibellÈ=NOM ET PRENOMS
+		Variable=NOM ET PRENOMS
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		LibellÈ=SEXE DU REPONDANT
+		Variable=SEXE DU REPONDANT
+		Type=1
+		NbModalitÈs=2
+		ModalitÈs=FEMININ ; MASCULIN ;
+		PondÈrations= 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		LibellÈ=L'AGE DU REPONDANT
+		Variable=L'AGE DU REPONDANT
+		Type=4
+		TypeNombre=2
+		MinNombre=15
+		MaxNombre=80
+		Consigne=EN ANNEE REVOLUE;UNITE L'AN
+		Plan=1
+		Attributs=160
+	Fin
+	Question
+		LibellÈ=NIVEAU D'ETUDE DU REPONDANT
+		Variable=NIVEAU D'ETUDE DU REPONDANT
+		Type=1
+		NbModalitÈs=4
+		ModalitÈs=ANALPHABETE ; PRIMAIRE ; SECONDAIRE ; SUPERIEUR ;
+		PondÈrations= 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		LibellÈ=AVEZ-VOUS UN TELEPHONE PORTABLE
+		Variable=AVEZ-VOUS UN TELEPHONE PORTABLE
+		Type=1
+		NbModalitÈs=2
+		ModalitÈs=OUI ; NON ;
+		PondÈrations= 0
+		Consigne=SI NON ALLER A LA QUESTION Q9
+		Plan=1
+		Attributs=160
+	Fin
+	Question
+		LibellÈ=SI OUI QUELLES SONT LES MARQUES DE VOS PORTABLES
+		Variable=SI OUI LES MARQUES DE VOS PORTABLES
+		Type=2
+		NbModalitÈs=6
+		ModalitÈs=NOKIA ; SAMSUNG ; ALCATEL ; MOTOROLA ; SIEMENS ; AUTRE A PRECISER ;
+		MaxRÈponses=3
+		PondÈrations= 0
+		Consigne=Vous pouvez cocher plusieurs cases (3 au maximum).
+		Plan=1
+		Attributs=34
+	Fin
+	Question
+		LibellÈ=Si 'AUTRE A PRECISER', prÈcisez :
+		Variable=SI OUI LES MARQUES DE VOS PORTABLES_AUTR
+		Type=6
+		NbLignes=0
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		LibellÈ=SI NON,POURQUOI NAVEZ-VOUS PAS DE TELEPHONE DE TELEPHONE PORTABLE
+		Variable=SI NON,POURQUOI PAS DE TELEPHONE
+		Type=2
+		NbModalitÈs=4
+		ModalitÈs=MANQUE DE MOYENS ; MANQUE D'INTERET ; ABSENCE DE RESEAU OU J'HABITE ; J'AI PERDU MON PORTABLE ;
+		MaxRÈponses=3
+		PondÈrations= 0
+		Consigne=Vous pouvez cocher plusieurs cases (3 au maximum).
+		Plan=1
+		Attributs=34
+	Fin
+	Question
+		LibellÈ=Si 'J'AI PERDU MON PORTABLE', prÈcisez :
+		Variable=SI NON,POURQUOI PAS DE TELEPHONE_AUTRE
+		Type=6
+		NbLignes=0
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		LibellÈ=ORANGE
+		Variable=ORANGE
+		Type=5
+		NbModalitÈs=4
+		ModalitÈs=TRES BIEN ; BIEN ; MOYENNE ; MAUVAISE ;
+		PondÈrations= 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		LibellÈ=MTN
+		Variable=MTN
+		Type=5
+		NbModalitÈs=4
+		ModalitÈs=TRES BIEN ; BIEN ; MOYENNE ; MAUVAISE ;
+		PondÈrations= 0
+		Plan=1
+		Attributs=0
+	Fin
+	Question
+		LibellÈ=MOOV
+		Variable=MOOV
+		Type=5
+		NbModalitÈs=4
+		ModalitÈs=TRES BIEN ; BIEN ; MOYENNE ; MAUVAISE ;
+		PondÈrations= 0
+		Plan=1
+		Attributs=0
+	Fin
+	Question
+		LibellÈ=FRAIS DE TELEPHONE MOBILE PERSONNEL
+		Variable=FRAIS DE TELEPHONE MOBILE PERSONNEL
+		Type=4
+		TypeNombre=2
+		MinNombre=0
+		MaxNombre=50000
+		Consigne=La rÈponse doit Ítre comprise entre 0 et 50000.
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		LibellÈ=FRAIS DE COMMUNICATION DANS LES CENTRES D'APPEL(cabine)
+		Variable=FRAIS DE COMMUNICATION DANS LES CENTRES
+		Type=4
+		TypeNombre=2
+		MinNombre=0
+		MaxNombre=50000
+		Consigne=La rÈponse doit Ítre comprise entre 0 et 50000.
+		Plan=1
+		Attributs=0
+	Fin
+Fin
+Groupes
+	Groupe
+		Type=2000
+		Nom=GLOBALEMENT COMMENT JUGEZ-VOUS LA QUALI
+		LibellÈ=GLOBALEMENT COMMENT JUGEZ-VOUS LA QUALITE DE SERVICES DE LA COMPAGNIE DE TELEPHONE MOBBILE
+		NbCritËres=3
+		CritËres= 10 11 12
+		Plan=0
+	Fin
+	Groupe
+		Type=3000
+		Nom=EN MOYENNE COMBIEN DEPENSEZ-VOUS MENSUE
+		LibellÈ=EN MOYENNE COMBIEN DEPENSEZ-VOUS MENSUELLEMENT(en cfa) POUR LES
+		NbCritËres=2
+		CritËres= 13 14
+		NomColonne=1
+		Plan=0
+	Fin
+Fin
+Titres
+	Titre
+		LibellÈ=IDENTIFIANT
+		PremiËre=0
+	Fin
+	Titre
+		LibellÈ=PRODUIT
+		PremiËre=5
+	Fin
+	Titre
+		LibellÈ=QUALITE DE SERVICE
+		PremiËre=10
+	Fin
+	Titre
+		LibellÈ=DEPENSE
+		PremiËre=13
+	Fin
+Fin
+Options
+	GroupesActifs=1
+	RenvoisActifs=1
+	ControlesActifs=1
+	UneModalitÈParLigne=1
+Fin
